@@ -5,7 +5,7 @@ kern0-boot
 
 ...
 
-> ¿Cuánta CPU consume el proceso qemu-system-i386 mientras ejecuta este kernel? ¿Qué está haciendo?
+> ¿Cuánta CPU consume el proceso `qemu-system-i386` mientras ejecuta este _kernel_? ¿Qué está haciendo?
 
 ...
 
@@ -13,18 +13,19 @@ kern0-boot
 kern0-quit
 ----------
 
-> Ejecutar el comando info registers en el monitor de QEMU, e incluir el resultado en la entrega. (El mismo comando, info reg, existe también en GDB).
+> Ejecutar el comando `info registers` en el monitor de _QEMU_, e incluir el resultado en la entrega. (El mismo comando, `info reg`, existe también en GDB).
 
 ...
 
 kern0-hlt
 ---------
 
-> Una vez invocado hlt ¿cuándo se reanuda la ejecución?
+> Una vez invocado `hlt` ¿cuándo se reanuda la ejecución?
 
 ...
 
-> Usar el comando powertop para comprobar el consumo de recursos de ambas versiones del kernel. En particular, para cada versión, anotar:
+> Usar el comando `powertop` para comprobar el consumo de recursos de ambas versiones del kernel. En particular, para cada versión, anotar:
+
 > * columna Usage: fragmento de tiempo usado por QEMU en cada segundo.
 > * columna Events/s: número de veces por segundo que QEMU reclama la atención de la CPU.
 
